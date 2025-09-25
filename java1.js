@@ -59,12 +59,25 @@ let x = 1
 console.log("przesuniecie w lewo:"+(x<<1))
 console.log("przesuniecie w prawo:"+(x>>1))
 
-zad6 IF ELSE*/
+zad6 IF ELSE
 let x = 18
 if (x==15){
     console.log("wartosc x = 15")
 }else if (x<15){
     console.log("wartosc x jest mniejsza od 15")
-}else if (x>15){
+}else {
     console.log("wartosc x jest wieksza od 15")
 }
+
+zad7
+let x = 62
+if (x % 2 === 0){
+    console.log("liczba parzysta")
+}else{
+    console.log("liczba nieparzysta")
+}
+
+zad8 OPERATOR WARUNKOWY - SKROCONA INSTRUKCJA*/
+let x = 17
+const czyParzysta = (x % 2 === 0)? 'parzysta' : 'nieparzysta'
+console.log(czyParzysta)
