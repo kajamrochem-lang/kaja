@@ -82,7 +82,7 @@ let x = 17
 const czyParzysta = (x % 2 === 0)? 'parzysta' : 'nieparzysta'
 console.log(czyParzysta)
 
-zad9 INSTUKCJA WARUNKOWA SWITCH*/
+zad9 INSTUKCJA WARUNKOWA SWITCH
 let x = 2
 switch (x){
     case 1:
@@ -102,3 +102,17 @@ switch (x){
         console.log("zadna z powyzszych opcji nie zostala wybrana");
         break;
 }
+    
+zad10*/
+let x = 30
+let y = 5
+let z = 45
+
+if (x!=y && x!=z && y!=z){
+    if (x>y && x>z){
+        console.log("najwieksza wartosc to "+x)
+    }
+    if (y>x && y>z) console.log("najwieksza wartosc to "+y)
+    if (z>x && z>y) console.log("najwieksza wartosc to "+z)
+}
+
