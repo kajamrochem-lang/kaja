@@ -26,10 +26,10 @@ console.log(typeof(e))
 let f
 console.log(typeof(f))
 
-Zadanie3*/
+Zadanie3
 let a = 15
 let b = 4
-/*
+
 console.log(a+b)
 console.log(a-b)
 console.log(a*b)
@@ -40,6 +40,16 @@ console.log(a%b)
 console.log(a++)
 console.log(a++)
 console.log(b--)
-console.log(b--)*/
+console.log(b--)
 console.log(-a)
 console.log(+b)
+console.log(2==2)
+console.log(2!=2)
+
+zadanie4*/
+let x = 2
+console.log(x)
+console.log(x+=2)
+console.log(x-=2)
+console.log(x*=2)
+console.log(x/=2)
