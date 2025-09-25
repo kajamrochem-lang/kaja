@@ -54,7 +54,17 @@ console.log(x-=2)
 console.log(x*=2)
 console.log(x/=2)
 
-zad5*/
+zad5
 let x = 1
 console.log("przesuniecie w lewo:"+(x<<1))
 console.log("przesuniecie w prawo:"+(x>>1))
+
+zad6 IF ELSE*/
+let x = 18
+if (x==15){
+    console.log("wartosc x = 15")
+}else if (x<15){
+    console.log("wartosc x jest mniejsza od 15")
+}else if (x>15){
+    console.log("wartosc x jest wieksza od 15")
+}
