@@ -77,7 +77,24 @@ if (x % 2 === 0){
     console.log("liczba nieparzysta")
 }
 
-zad8 OPERATOR WARUNKOWY - SKROCONA INSTRUKCJA*/
+zad8 OPERATOR WARUNKOWY - SKROCONA INSTRUKCJA
 let x = 17
 const czyParzysta = (x % 2 === 0)? 'parzysta' : 'nieparzysta'
 console.log(czyParzysta)
+
+zad9 INSTUKCJA WARUNKOWA SWITCH*/
+let x = 1
+switch (x){
+    case 1:
+        console.log("x wynosi 1");
+        break;
+    case 3:
+        console.log("x wynosi 3");
+        break;   
+    case 5:
+        console.log("x wynosi 5");
+        break;
+    default:
+        console.log("zadna z powyzszych opcji nie zostala wybrana");
+        break;
+}
