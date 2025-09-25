@@ -103,7 +103,7 @@ switch (x){
         break;
 }
     
-zad10*/
+zad10
 let x = 30
 let y = 5
 let z = 45
@@ -116,3 +116,7 @@ if (x!=y && x!=z && y!=z){
     if (z>x && z>y) console.log("najwieksza wartosc to "+z)
 }
 
+zad11 INSTRUKCJA ITERACYJNA (PETLA) FOR    */
+for (let i = 0 ; i<=10 ; i++){
+    console.log("kolejne przejscie petli "+i)
+}
