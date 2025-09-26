@@ -1,4 +1,4 @@
-/*zad1
+//zad1
 let naszazmienna = 4 
 console.log(naszazmienna)
 
@@ -7,7 +7,7 @@ naszazmienna = 6
 console.log(naszazmienna)
 document.write("wartosci zmiennych mozemy zmieniac a stalych nie")
 
-zad2
+//zad2
 let a = 4 //number
 console.log(typeof(a))
 
@@ -26,7 +26,7 @@ console.log(typeof(e))
 let f
 console.log(typeof(f))
 
-Zadanie3
+//Zadanie3
 let a = 15
 let b = 4
 
@@ -35,7 +35,7 @@ console.log(a-b)
 console.log(a*b)
 console.log(a/b)
 
-Zadanie4
+//Zadanie4
 console.log(a%b)
 console.log(a++)
 console.log(a++)
@@ -46,7 +46,7 @@ console.log(+b)
 console.log(2==2)
 console.log(2!=2)
 
-zadanie4
+//zadanie4
 let x = 2
 console.log(x)
 console.log(x+=2)
@@ -54,12 +54,12 @@ console.log(x-=2)
 console.log(x*=2)
 console.log(x/=2)
 
-zad5
+//zad5
 let x = 1
 console.log("przesuniecie w lewo:"+(x<<1))
 console.log("przesuniecie w prawo:"+(x>>1))
 
-zad6 IF ELSE
+//zad6 IF ELSE
 let x = 18
 if (x==15){
     console.log("wartosc x = 15")
@@ -69,7 +69,7 @@ if (x==15){
     console.log("wartosc x jest wieksza od 15")
 }
 
-zad7
+//zad7
 let x = 62
 if (x % 2 === 0){
     console.log("liczba parzysta")
@@ -77,12 +77,12 @@ if (x % 2 === 0){
     console.log("liczba nieparzysta")
 }
 
-zad8 OPERATOR WARUNKOWY - SKROCONA INSTRUKCJA
+//zad8 OPERATOR WARUNKOWY - SKROCONA INSTRUKCJA
 let x = 17
 const czyParzysta = (x % 2 === 0)? 'parzysta' : 'nieparzysta'
 console.log(czyParzysta)
 
-zad9 INSTUKCJA WARUNKOWA SWITCH
+//zad9 INSTUKCJA WARUNKOWA SWITCH
 let x = 2
 switch (x){
     case 1:
@@ -103,7 +103,7 @@ switch (x){
         break;
 }
     
-zad10
+//zad10
 let x = 30
 let y = 5
 let z = 45
@@ -116,7 +116,7 @@ if (x!=y && x!=z && y!=z){
     if (z>x && z>y) console.log("najwieksza wartosc to "+z)
 }
 
-zad11 INSTRUKCJA ITERACYJNA (PETLA) FOR    */
+//zad11 INSTRUKCJA ITERACYJNA (PETLA) FOR    */
 for (let i = 0 ; i<=10 ; i++){
     console.log("kolejne przejscie petli "+i)
 }
